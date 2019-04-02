@@ -1,0 +1,21 @@
+{
+    "name": "geekhare/imhio-backend",
+    "description": "imhio-backend",
+    "authors": [
+        {
+            "name": "GeekHare",
+            "email": "zayats.and@gmail.com"
+        }
+    ],
+    "require": {
+        "phpdocumentor/phpdocumentor": "^2.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Api\\": "Api/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.5"
+    }
+}
